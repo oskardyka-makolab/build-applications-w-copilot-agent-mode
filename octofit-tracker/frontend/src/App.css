@@ -1,0 +1,75 @@
+/* OctoFit Tracker – global styles */
+
+body {
+  background-color: #f0f4f8;
+}
+
+.octofit-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  color: #e0e0e0;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #e94560;
+}
+
+.octofit-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.octofit-header .subtitle {
+  font-size: 0.9rem;
+  color: #a0aec0;
+  margin: 0;
+}
+
+.octofit-nav .nav-link {
+  color: #e0e0e0 !important;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0.4rem 0.9rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.octofit-nav .nav-link:hover,
+.octofit-nav .nav-link.active {
+  background-color: #e94560;
+  color: #fff !important;
+}
+
+.section-card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.section-card .card-header {
+  background: linear-gradient(90deg, #e94560 0%, #c0392b 100%);
+  color: #fff;
+  border-radius: 0.75rem 0.75rem 0 0 !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+}
+
+.table thead th {
+  background-color: #16213e;
+  color: #e0e0e0;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.table tbody tr:hover {
+  background-color: #eaf0fb;
+}
+
+.badge-activity {
+  background-color: #0f3460;
+}
+
+.error-alert {
+  border-left: 4px solid #e94560;
+}
